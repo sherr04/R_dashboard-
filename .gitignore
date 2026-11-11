@@ -1,0 +1,19 @@
+# Raw data (96 MB) - the web app uses app/lines.rds instead
+data.csv
+
+# Course / submission files that should not be public
+*.docx
+*.pdf
+ETW2001_Assignment_3_Instructions*
+
+# Root copy of the original submission app (reads data.csv); the web app is app/app.R
+/app.R
+
+# R / RStudio
+.RData
+.Rhistory
+.Rproj.user/
+*.Rproj
+
+# shinylive build output (built by GitHub Actions)
+site/
